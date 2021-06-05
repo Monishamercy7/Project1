@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RMGYantra_API_Framework</groupId>
+  <artifactId>RMGYantra_API_Framework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <!-- To work with rest API testing & validation -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.4.0</version>
+    <scope>test</scope>
+</dependency>
+  
+  <!-- To create JSON object for post, put & patch operation -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+  
+  <!-- To achieve serialization and deserialization -->
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+  <!-- To achieve batch execution and assertion -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+    <scope>test</scope>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.8.0</version>
+</dependency>
+  
+  <!-- To connect to mysql DB & validation -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.25</version>
+</dependency>
+  
+  </dependencies>
+  
+</project>

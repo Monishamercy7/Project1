@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ty.rmgyantra.projectTest.AddSingleProjectWithCompletedStatus">
+        <methods>
+          <include name="configBS"/>
+          <include name="configAS"/>
+          <include name="addSingleProjectWithCompletedStatus"/>
+        </methods>
+      </class> <!-- com.ty.rmgyantra.projectTest.AddSingleProjectWithCompletedStatus -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
